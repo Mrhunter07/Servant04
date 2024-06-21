@@ -2,20 +2,20 @@ class script(object):
     START_TXT = """<i><b>🎃 Helo {}, I'm <a href=https://telegram.me/{}>{}</a></i></b> \n\n<i><b>🔅 I Can Provide You Any Movies, Web-Series, Anime, K-Dramas, Animation, etc!</i></b>"""
     
     
-    HELP_TXT = """🔆彡[ @KannadaCinePlex1 ]彡🔆"""
+    HELP_TXT = """🔆彡[ @KannadaCinePlex2 ]彡🔆"""
 
-    ABOUT_TXT = """🔆彡[ @KannadaCinePlex1 ]彡🔆"""
+    ABOUT_TXT = """🔆彡[ @KannadaCinePlex2 ]彡🔆"""
 
-    SOURCE_TXT = """🔆彡[ @KannadaCinePlex1 ]彡🔆"""
-    MANUELFILTER_TXT = """🔆彡[ @KannadaCinePlex1 ]彡🔆"""
+    SOURCE_TXT = """🔆彡[ @KannadaCinePlex2 ]彡🔆"""
+    MANUELFILTER_TXT = """🔆彡[ @KannadaCinePlex2 ]彡🔆"""
 
-    BUTTON_TXT = """🔆彡[ @KannadaCinePlex1 ]彡🔆"""
+    BUTTON_TXT = """🔆彡[ @KannadaCinePlex2 ]彡🔆"""
 
-    AUTOFILTER_TXT = """🔆彡[ @KannadaCinePlex1 ]彡🔆"""
+    AUTOFILTER_TXT = """🔆彡[ @KannadaCinePlex2 ]彡🔆"""
 
-    CONNECTION_TXT = """🔆彡[ @KannadaCinePlex1 ]彡🔆"""
-    EXTRAMOD_TXT = """🔆彡[ @KannadaCinePlex1 ]彡🔆"""
-    ADMIN_TXT = """🔆彡[ @KannadaCinePlex1 ]彡🔆"""
+    CONNECTION_TXT = """🔆彡[ @KannadaCinePlex2 ]彡🔆"""
+    EXTRAMOD_TXT = """🔆彡[ @KannadaCinePlex2 ]彡🔆"""
+    ADMIN_TXT = """🔆彡[ @KannadaCinePlex2 ]彡🔆"""
 
     STATUS_TXT = """<b>★ Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
 ★ Tᴏᴛᴀʟ Usᴇʀs: <code>{}</code>
@@ -49,17 +49,17 @@ Nᴀᴍᴇ - {}"""
     MVE_NT_FND = """<b><i>💢 Sorry – It’s Not Available❗️</i></b>"""
 
 
-    TOP_ALRT_MSG = """🔆彡[ @KannadaCinePlex1 ]彡🔆"""
+    TOP_ALRT_MSG = """🔆彡[ @KannadaCinePlex2 ]彡🔆"""
 
-    MELCOW_ENG = """<b><i>🔆 "KannadaCinePlex1 • GROUP" 亗 🔆
+    MELCOW_ENG = """<b><i>🔆 "KannadaCinePlex2 • GROUP" 亗 🔆
 •───────────────────• 
-⚜Hey {}, Welcome To KannadaCinePlex1 • Group. You Can Request Any Movies, Web-Series, Anime, K-Dramas, Animation etc., here....</i></b>"""
+⚜Hey {}, Welcome To KannadaCinePlex2 • Group. You Can Request Any Movies, Web-Series, Anime, K-Dramas, Animation etc., here....</i></b>"""
 
-    SHORTLINK_INFO = """🔆彡[ @KannadaCinePlex1 ]彡🔆"""
+    SHORTLINK_INFO = """🔆彡[ @KannadaCinePlex2 ]彡🔆"""
 
-    REQINFO = """🔆彡[ @KannadaCinePlex1 ]彡🔆"""
+    REQINFO = """🔆彡[ @KannadaCinePlex2 ]彡🔆"""
 
-    SINFO = """🔆彡[ @KannadaCinePlex1 ]彡🔆"""
+    SINFO = """🔆彡[ @KannadaCinePlex2 ]彡🔆"""
 
     NORSLTS = """
 ★ #𝗡𝗼𝗥𝗲𝘀𝘂𝗹𝘁𝘀 ★
@@ -71,7 +71,7 @@ Nᴀᴍᴇ - {}"""
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """
- <a href="https://telegram.me/KannadaCinePlex1"><b><i>{file_name}</i></b></a>"""
+ <a href="https://telegram.me/KannadaCinePlex2"><b><i>{file_name}</i></b></a>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}
@@ -83,11 +83,11 @@ IMDb Data:
 ⏱️ Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
 🌟 Rating: <a href={url}/ratings>{rating}</a> / 10</b>"""
     
-    ALL_FILTERS = """🔆彡[ @KannadaCinePlex1 ]彡🔆"""
+    ALL_FILTERS = """🔆彡[ @KannadaCinePlex2 ]彡🔆"""
     
-    GFILTER_TXT = """🔆彡[ @KannadaCinePlex1 ]彡🔆"""
+    GFILTER_TXT = """🔆彡[ @KannadaCinePlex2 ]彡🔆"""
     
-    FILE_STORE_TXT = """🔆彡[ @KannadaCinePlex1 ]彡🔆"""
+    FILE_STORE_TXT = """🔆彡[ @KannadaCinePlex2 ]彡🔆"""
     RESTART_TXT = """
 <b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
 
