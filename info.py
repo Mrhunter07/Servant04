@@ -26,7 +26,7 @@ MELCOW_PIC = environ.get("MELCOW_PIC", "https://te.legra.ph/file/7bece5ddc3e0018
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/2d68d2c0fbf9385d48d70.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1058015838 640617767').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '640617767').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001638006524').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '640617767').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
@@ -42,8 +42,8 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://13duddududdu:13duddududdu@cluster0.dvpxim9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "kc")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'kc')
+DATABASE_NAME = environ.get('DATABASE_NAME', "Files")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'easysky.in')
@@ -55,8 +55,8 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "10")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/kannadacineplex1')
-CHNL_LNK = environ.get('CHNL_LNK', 'kannadacineplex1')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/kannadacineplex2')
+CHNL_LNK = environ.get('CHNL_LNK', 'kannadacineplex2')
 TUTORIAL = environ.get('TUTORIAL', 'publicth01/3')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
